@@ -1,0 +1,45 @@
+.niceButton {
+  display: inline-block;
+  /* padding: 15px 25px; */
+  padding: 10px;
+  width: 50px;
+  height: 45px;
+  font-size: 24px;
+  cursor: pointer; /*设置鼠标指针为手指*/
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(16, 185, 214);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  user-select: none; /*设置文字不可选中*/
+  margin: 5px;
+}
+.niceButton:hover {
+  background-color: #1795bb;
+}
+.niceButton:active {
+  background-color: #1795bb;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.text-area {
+  height: 54px;
+  width: 504px;
+  display: flex;
+  align-items: center; /*垂直居中*/
+  justify-content: center; /*水平居中*/
+  /* background-color: aqua; */
+  border-radius: 5px;
+}
+.text {
+  height: 50px;
+  width: 480px;
+  font-size: 20px;
+  border: 0px; /*去边框*/
+  outline: none; /*去选中时边框*/
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
